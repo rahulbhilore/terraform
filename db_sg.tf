@@ -8,7 +8,7 @@ resource "aws_security_group" "database-security-group" {
     from_port   = 3306
     to_port     = 3306
     protocol    = "tcp"
-    cidr_block  = ["0.0.0.0/0"]
+    cidr_blocks = ["0.0.0.0/0"]
   }
 
 

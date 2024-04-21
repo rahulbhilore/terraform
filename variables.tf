@@ -5,9 +5,9 @@ variable "vpc_cidr" {
 }
 
 variable "public-web-subnet-1-cidr" {
-	default	= "10.0.1.0/24"
-	description	= "public_web_subnet1"
-	type	= string
+  default     = "10.0.1.0/24"
+  description = "public_web_subnet1"
+  type        = string
 }
 
 variable "public-web-subnet-2-cidr" {
